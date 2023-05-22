@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html,
+#root {
+  height: 100%;
+}
+
+.calc-cell {
+  @apply flex justify-center items-center text-white text-4xl;
+}
